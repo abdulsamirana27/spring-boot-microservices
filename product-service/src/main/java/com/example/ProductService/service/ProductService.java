@@ -1,9 +1,9 @@
-package com.example.MicroService.service;
+package com.example.ProductService.service;
 
-import com.example.MicroService.Repository.ProductRepository;
-import com.example.MicroService.dto.ProductRequest;
-import com.example.MicroService.dto.ProductResponse;
-import com.example.MicroService.model.Product;
+import com.example.ProductService.Repository.ProductRepository;
+import com.example.ProductService.dto.ProductRequest;
+import com.example.ProductService.dto.ProductResponse;
+import com.example.ProductService.model.Product;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

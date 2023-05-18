@@ -1,7 +1,7 @@
-package com.example.MicroService;
+package com.example.ProductService;
 
-import com.example.MicroService.Repository.ProductRepository;
-import com.example.MicroService.dto.ProductRequest;
+import com.example.ProductService.Repository.ProductRepository;
+import com.example.ProductService.dto.ProductRequest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @Testcontainers
 @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 @AutoConfigureMockMvc
-class MicroServiceApplicationTests {
+class ProductServiceApplicationTests {
 
 	@Container
 	static MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:5.0.7");

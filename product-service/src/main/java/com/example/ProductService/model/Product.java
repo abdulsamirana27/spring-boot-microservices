@@ -1,4 +1,4 @@
-package com.example.MicroService.model;
+package com.example.ProductService.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.lang.annotation.Documented;
 import java.math.BigDecimal;
 
 @Document(value = "product")

@@ -1,11 +1,9 @@
-package com.example.MicroService.Controller;
+package com.example.ProductService.Controller;
 
-import com.example.MicroService.dto.ProductRequest;
-import com.example.MicroService.dto.ProductResponse;
-import com.example.MicroService.model.Product;
-import com.example.MicroService.service.ProductService;
+import com.example.ProductService.dto.ProductRequest;
+import com.example.ProductService.dto.ProductResponse;
+import com.example.ProductService.service.ProductService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
